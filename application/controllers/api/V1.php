@@ -303,7 +303,7 @@ class V1 extends RestController {
                     }
                     $message .= '</table>';
 
-                    $subject = "Welcome to Eqwipetrol";
+                    $subject = "Welcome to " . PROJECT_NAME;
                     if ($email != '') {
                         $this->common_model->send_mail($message, $email, $subject);
                     }
@@ -849,7 +849,7 @@ class V1 extends RestController {
                     }
                     $message .= '</table>';
 
-                    $subject = "Welcome to Eqwipetrol";
+                    $subject = "Welcome to " . PROJECT_NAME;
                     if ($email != '') {
                         $this->common_model->send_mail($message, $email, $subject);
                     }
@@ -3178,7 +3178,8 @@ class V1 extends RestController {
                         $result = array();
                         $result['order_id'] = $order_id;
                         $result['order_no'] = $order_data->order_id;
-                        $result['payment_initiate_url'] = $is_online ? base_url('payment/pay/' . $payment_ref_id) : '';
+                        //$result['payment_initiate_url'] = $is_online ? base_url('payment/pay/' . $payment_ref_id) : '';
+                        $result['payment_ref_id'] = $payment_ref_id;
                         $result['transaction_id'] = $is_online;
 
                         $this->data['status'] = 'success';
@@ -4218,7 +4219,7 @@ class V1 extends RestController {
                                 }
 
                                 $message = "Dear " . $customer->name . ",<br/><br/>";
-                                $message .= "Invoice generated from Eqwipetrol, Order Number " . $order_data->order_id . "<br/><br/>";
+                                $message .= "Invoice generated from " . PROJECT_NAME . ", Order Number " . $order_data->order_id . "<br/><br/>";
 
                                 $email_id = $customer->email;
                                 $subject = 'Invoice';

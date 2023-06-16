@@ -21,7 +21,7 @@
                                 Mo: <?= $address_data['shipping_info'] && $address_data['shipping_info']->contact_number ? $address_data['shipping_info']->contact_number : '' ?>
                             </td>
                             <td style="width:33%;border: 1px solid #d3d3d3;vertical-align: top;padding: 5px;" colspan="2">                                
-                                <b>Eqwipetrol</b><br/>
+                                <b><?= PROJECT_NAME ?></b><br/>
                                 <?= $address_data['billing_info'] && $address_data['billing_info']->address ? $address_data['billing_info']->address : '' ?><br/>                                
                                 <?= $address_data['billing_info'] && $address_data['billing_info']->contact_no ? $address_data['billing_info']->contact_no : '' ?>                                
                             </td>

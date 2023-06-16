@@ -87,7 +87,7 @@ defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatic
 
 //custom constants
 define('DATETIME', date('Y-m-d H:i:s'));
-define('PROJECT_NAME', 'Eqwipetrol');
+define('PROJECT_NAME', 'Jumuiya');
 define('POWERED_BY', 'Colourmoon Technology');
 define('POWERED_BY_URL', 'https://thecolourmoon.com/');
 define('DSC', DIRECTORY_SEPARATOR);

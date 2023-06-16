@@ -130,7 +130,7 @@ class Transporter extends CI_Controller {
                 }
                 $message .= '</table>';
 
-                $subject = "Welcome to Eqwipetrol";
+                $subject = "Welcome to " . PROJECT_NAME;
                 if ($email != '') {
                     $this->common_model->send_mail($message, $email, $subject);
                 }
