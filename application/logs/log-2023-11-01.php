@@ -1,0 +1,16 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-11-01 01:48:02 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 01:59:49 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:00:51 --> Severity: Warning --> Undefined variable $vendor_id /Users/tonymugendi/Documents/workspace/eqwi-petrol/application/views/admin/vendor_purchase/edit.php 135
+ERROR - 2023-11-01 02:00:51 --> Severity: Warning --> Undefined variable $vendor_id /Users/tonymugendi/Documents/workspace/eqwi-petrol/application/views/admin/vendor_purchase/edit.php 149
+ERROR - 2023-11-01 02:02:48 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:18:29 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:23:13 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:30:58 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:35:18 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 02:38:36 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 12:08:33 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 12:27:10 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 12:54:13 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142
+ERROR - 2023-11-01 12:58:01 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated /Users/tonymugendi/Documents/workspace/eqwi-petrol/system/libraries/Session/Session_driver.php 142

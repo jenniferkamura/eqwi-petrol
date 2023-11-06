@@ -1,6 +1,7 @@
 <?php
 $admin_id = $this->session->userdata(PROJECT_NAME . '_user_data')->admin_id;
 $admin_menu = $this->common_model->get_menu_details($admin_id);
+$is_super_admin = true;
 ?>
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
@@ -15,7 +16,7 @@ $admin_menu = $this->common_model->get_menu_details($admin_id);
             $menu_url = $custom_active_sub_url = 'admin/' . $url1 . ($url2 != '' ? '/' . $url2 : '');
             $menu_url = str_replace('/edit', '', $menu_url);
 
-            //echo '<pre>';print_r($admin_menu);die;
+            // echo '<pre>';print_r($admin_menu);die;
             if ($this->common_model->check_menu_privilege($admin_id, $menu_url, 'list_p', $is_super_admin) && $admin_menu) {
                 foreach ($admin_menu as $menu) {
                     if ($menu->list_p) {
