@@ -6,6 +6,7 @@
 # Node artifact files
 node_modules/
 dist/
+vendor/
 
 # Compiled Java class files
 *.class
@@ -18,6 +19,7 @@ dist/
 
 # Package files
 *.jar
+composer.lock
 
 # Maven
 target/
